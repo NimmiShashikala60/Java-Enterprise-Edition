@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02_Simple_App/02_Simple_App.iml" filepath="$PROJECT_DIR$/02_Simple_App/02_Simple_App.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_Simple_App/03_Simple_App.iml" filepath="$PROJECT_DIR$/03_Simple_App/03_Simple_App.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_Simple_App/04_Simple_App.iml" filepath="$PROJECT_DIR$/04_Simple_App/04_Simple_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AJAX/AJAX.iml" filepath="$PROJECT_DIR$/AJAX/AJAX.iml" />
     </modules>
   </component>
 </project>
