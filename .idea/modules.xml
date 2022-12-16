@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/java-enterprise-edition.iml" filepath="$PROJECT_DIR$/.idea/java-enterprise-edition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_Helo_JavaEE/01_Helo_JavaEE.iml" filepath="$PROJECT_DIR$/01_Helo_JavaEE/01_Helo_JavaEE.iml" />
     </modules>
   </component>
 </project>
