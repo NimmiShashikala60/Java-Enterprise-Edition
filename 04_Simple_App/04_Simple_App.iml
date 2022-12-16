@@ -16,5 +16,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="J2EE 1.4-J2EE 1.4" level="project" />
+    <orderEntry type="library" name="Tomcat 8.5.83" level="application_server_libraries" />
   </component>
 </module>
