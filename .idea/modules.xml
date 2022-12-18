@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/05_Simple_App/05_Simple_App.iml" filepath="$PROJECT_DIR$/05_Simple_App/05_Simple_App.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_DBCP/07_DBCP.iml" filepath="$PROJECT_DIR$/07_DBCP/07_DBCP.iml" />
       <module fileurl="file://$PROJECT_DIR$/08_JSON/08_JSON.iml" filepath="$PROJECT_DIR$/08_JSON/08_JSON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Filters/09_Filters.iml" filepath="$PROJECT_DIR$/09_Filters/09_Filters.iml" />
       <module fileurl="file://$PROJECT_DIR$/AJAX/AJAX.iml" filepath="$PROJECT_DIR$/AJAX/AJAX.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mapping-Specifications/Mapping-Specifications.iml" filepath="$PROJECT_DIR$/Mapping-Specifications/Mapping-Specifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/POS_Front_End/POS_Front_End.iml" filepath="$PROJECT_DIR$/POS_Front_End/POS_Front_End.iml" />
