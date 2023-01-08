@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="filter">
-    <output-path>$PROJECT_DIR$/out/artifacts/filter</output-path>
-    <root id="archive" name="filter.war">
+  <artifact type="war" name="filters">
+    <output-path>$PROJECT_DIR$/out/artifacts/filters</output-path>
+    <root id="archive" name="filters.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="09_Filters" />
