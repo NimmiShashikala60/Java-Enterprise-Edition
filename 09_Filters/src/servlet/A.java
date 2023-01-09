@@ -11,6 +11,8 @@ import java.io.IOException;
 public class A extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String servletPath = req.getServletPath();
+        System.out.println(servletPath);
         System.out.println("Servlet A Gat method Invoked");
         resp.getWriter().write("<h1>A : DO GET Called</h1>");
     }
