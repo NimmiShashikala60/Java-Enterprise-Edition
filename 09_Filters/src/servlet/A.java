@@ -7,13 +7,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet (urlPatterns = "/b")
+@WebServlet(urlPatterns = "/a")
 public class A extends HttpServlet {
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String servletPath = req.getServletPath();
-        System.out.println(servletPath);
-        System.out.println("Servlet A Gat method Invoked");
+        System.out.println("Servlet A Get method Invoked");
         resp.getWriter().write("<h1>A : DO GET Called</h1>");
     }
 }

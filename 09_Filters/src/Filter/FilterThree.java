@@ -1,10 +1,11 @@
+
 package Filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-@WebFilter(urlPatterns = "/b")
+//@WebFilter(urlPatterns = "/b")
 public class FilterThree implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -16,14 +17,17 @@ public class FilterThree implements Filter {
         System.out.println("Filter Three do Filter Method Invoked");
         String name = servletRequest.getParameter("name");
         if (name.equals("ijse")){
+            //dispatch request to the servlet
             filterChain.doFilter(servletRequest,servletResponse);
-        }else {
-            servletResponse.getWriter().write("<h1>Non Authenticated user</h1>");
+            //append the response
+            servletResponse.getWriter().write("<h1>Authenticated User</h1>");
+        }else{
+            servletResponse.getWriter().write("<h1>Non Authenticated User</h1>");
         }
     }
 
     @Override
     public void destroy() {
-        System.out.println("Filter Three Destroyed");
+        System.out.println("Filter Two Destroyed");
     }
 }

@@ -16,9 +16,9 @@ public class Filtertwo implements Filter {
         System.out.println("Filter Two do Filter Method Invoked");
         String name = servletRequest.getParameter("name");
         if (name.equals("ijse")){
-            servletResponse.getWriter().write("<h1>Authenticated user</h1>");
-        }else {
-            servletResponse.getWriter().write("<h1>Non Authenticated user</h1>");
+            servletResponse.getWriter().write("<h1>Authenticated User</h1>");
+        }else{
+            servletResponse.getWriter().write("<h1>Non Authenticated User</h1>");
         }
     }
 

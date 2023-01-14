@@ -1,7 +1,5 @@
 package servlet;
 
-import dto.CustomerDTO;
-
 import javax.json.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
-import java.util.ArrayList;
 
 @WebServlet(urlPatterns = "/customer")
 public class CustomerServlet extends HttpServlet {
@@ -195,5 +192,3 @@ public class CustomerServlet extends HttpServlet {
         resp.addHeader("Access-Control-Allow-Headers","Content-Type");
     }
 }
-
-
