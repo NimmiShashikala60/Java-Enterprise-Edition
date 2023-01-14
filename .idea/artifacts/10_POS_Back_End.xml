@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="10_POS_Back_End">
+    <output-path>$PROJECT_DIR$/out/artifacts/10_POS_Back_End</output-path>
+    <root id="archive" name="10_POS_Back_End.war" />
+  </artifact>
+</component>
